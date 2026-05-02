@@ -1,3 +1,6 @@
+const crypto = require("crypto");
+global.crypto = crypto;
+
 const app = require("./app");
 const config = require("./app/config");
 const MongoDB = require("./app/utils/mongodb.util");
